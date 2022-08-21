@@ -1,0 +1,32 @@
+/* Number Grid */
+div#numberGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 30px [col-start]);
+  grid-template-rows: 30px 30px;
+  grid-gap: 2px 2px;
+  background-color: black;
+  max-width: 158px;
+}
+
+p#n1 p#n6 {
+  grid-column-start: 1;
+}
+p#n2 p#n7 {
+  grid-column-start: 2;
+}
+p#n3 p#n8 {
+  grid-column-start: 3;
+}
+p#n4 p#n9 {
+  grid-column-start: 4;
+}
+p#n5 p#n10 {
+  grid-column-start: 5;
+}
+
+.gridItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+} 
